@@ -1,0 +1,1 @@
+npm i pm2 -g --save

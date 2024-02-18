@@ -13,7 +13,7 @@ const bot = new TeleBot({
     }
 })
 
-mongoose.connect('mongodb://dbuser:oFpxqW71@127.0.0.1:27017/proverbs')
+mongoose.connect('mongodb://user:pass@127.0.0.1:27017/proverbs')
 
 const ProverbsSchema = { text: String }
 const Proverbs = mongoose.model('proverbs', ProverbsSchema)
